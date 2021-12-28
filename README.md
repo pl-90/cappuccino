@@ -13,7 +13,7 @@
 quantidade de pilhas sobre seu domínio ao final da partida. Esse objetivo é alcançado
 empilhando peças durante a partida.</p>
 <p>(Jogo desenvolvido para 4 jogadores)</p>
-![main](https://github.com/pl-90/cappuccino-game-C/blob/main/screenshots/home.png?raw=true)
+![load](https://user-images.githubusercontent.com/34556034/147531982-b5a88962-bee6-4f76-bb44-3cc10fcf65c4.png)
 
 <h3># Regras</h3>
 <p># As peças podem ser movidas para:
