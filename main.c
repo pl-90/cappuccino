@@ -676,7 +676,6 @@ void jogar()
         else
             turno = trocaTurno(turno);
     } while (fimPartida(matriz) != 0);
-    turno = 0;
 
     exibeTabuleiro(nomePartida, matriz, jogador);
     printCenter("A PARTIDA ACABOU!", 17);
@@ -691,6 +690,15 @@ void jogar()
     printf("%s", jogador[vencedor].nome);
     printCenter("[Obs. apos o termino da partida, o save sera deletado automaticamente]", 22);
     apagaSave(nomePartida);
+    turno = 0;
+    for (int w = 0; w < 5; w++)
+    {
+        for (int z = 0; z < 5; z++)
+        {
+            matriz[w][z].cor = 'n';
+            matriz[w][z].tam = 0;
+        }
+    }
     printCenter("[Pressione qualquer tecla para voltar para a Home]", 23);
     gotoxy(termCenter(), 24);
     getch();
