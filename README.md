@@ -1,6 +1,6 @@
 # cappuccino-game-C
 <h2># Sobre o projeto</h2>
-<p># Desenvolvido em C, para Windows, não compatível com Linux ou MacOS</p>
+<p># Desenvolvido em C, para Windows</p>
 
 <h2># Implementações</h2>
 <p># Save automático das partidas e auto-delete de partidas encerradas.</p>
